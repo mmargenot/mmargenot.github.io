@@ -1,2 +1,0 @@
-# mmargenot.github.io
-blog

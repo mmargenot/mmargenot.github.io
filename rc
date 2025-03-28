@@ -1,0 +1,12 @@
+hugo server
+hugo server --buildDrafts
+
+hugo new content posts/$POST-NAME.md
+
+# block
+\\[
+\sqrt{2}
+\\]
+
+# inline
+\\(\sqrt{2}\\) also

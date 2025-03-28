@@ -1,0 +1,50 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: this is a website for thinking
+theme: PaperMod
+
+params:
+  title: thinking
+  description: "writing is thinking"
+  keywords: [blog, statistics, ml, ai, personal]
+  author: max
+  DateFormat: 2006-01-02
+  defaultTheme: auto
+  math: true
+
+  homeInfoParams:
+    Title: "hello"
+    Content: welcome to thinking
+
+  socialIcons:
+    - name: x
+      url: "https://x.com/clean_utensils"
+    - name: github
+      url: "https://github.com/mmargenot"
+
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 10
