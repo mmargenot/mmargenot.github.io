@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: https://mmargenot.github.io
 languageCode: en-us
 title: this is a website for thinking
 theme: PaperMod
@@ -7,14 +7,14 @@ params:
   title: thinking
   description: "writing is thinking"
   keywords: [blog, statistics, ml, ai, personal]
-  author: max
+  author: Max
   DateFormat: 2006-01-02
   defaultTheme: auto
   math: true
 
   homeInfoParams:
     Title: "hello"
-    Content: welcome to thinking
+    Content: I use this space for notes and thoughts on my work. That work is mostly machine learning and artificial intelligence, sometimes writing.
 
   socialIcons:
     - name: x

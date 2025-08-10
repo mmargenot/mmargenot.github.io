@@ -6,6 +6,35 @@
     <description>Recent content in Categories on this is a website for thinking</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 10 Aug 2025 13:54:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence</title>
+      <link>http://localhost:1313/categories/artificial-intelligence/</link>
+      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowledge Management</title>
+      <link>http://localhost:1313/categories/knowledge-management/</link>
+      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/knowledge-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/categories/machine-learning/</link>
+      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/categories/writing/</link>
+      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/writing/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
