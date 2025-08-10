@@ -14,7 +14,10 @@
       <pubDate>Thu, 27 Mar 2025 19:58:03 -0400</pubDate>
       <guid>http://localhost:1313/posts/writing-thinking/</guid>
       <description>&lt;p&gt;i did it&lt;/p&gt;
-&lt;p&gt;\sqrt{2} = 1&lt;/p&gt;</description>
+&lt;p&gt;\[
+\sqrt{2}
+\]&lt;/p&gt;
+&lt;p&gt;\(\sqrt{2}\) also&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
