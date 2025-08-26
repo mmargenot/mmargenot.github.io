@@ -6,8 +6,57 @@
     <description>Recent content in Categories on this is a website for thinking</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Aug 2025 13:54:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 10:32:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bayes</title>
+      <link>http://localhost:1313/categories/bayes/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/bayes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datasets</title>
+      <link>http://localhost:1313/categories/datasets/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/datasets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Finance</title>
+      <link>http://localhost:1313/categories/finance/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/categories/machine-learning/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcast</title>
+      <link>http://localhost:1313/categories/podcast/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistics</title>
+      <link>http://localhost:1313/categories/statistics/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talk</title>
+      <link>http://localhost:1313/categories/talk/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/talk/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Artificial Intelligence</title>
       <link>http://localhost:1313/categories/artificial-intelligence/</link>
@@ -20,13 +69,6 @@
       <link>http://localhost:1313/categories/knowledge-management/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
       <guid>http://localhost:1313/categories/knowledge-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>http://localhost:1313/categories/machine-learning/</link>
-      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
-      <guid>http://localhost:1313/categories/machine-learning/</guid>
       <description></description>
     </item>
     <item>
