@@ -6,8 +6,78 @@
     <description>Recent content in Tags on this is a website for thinking</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Aug 2025 13:54:00 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 26 Aug 2025 10:32:00 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithmic Trading</title>
+      <link>http://localhost:1313/tags/algorithmic-trading/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/algorithmic-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bayesian Statistics</title>
+      <link>http://localhost:1313/tags/bayesian-statistics/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/bayesian-statistics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ensemble Learning</title>
+      <link>http://localhost:1313/tags/ensemble-learning/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/ensemble-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Factor Investing</title>
+      <link>http://localhost:1313/tags/factor-investing/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/factor-investing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>http://localhost:1313/tags/machine-learning/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Natural Language Processing</title>
+      <link>http://localhost:1313/tags/natural-language-processing/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/natural-language-processing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pairs Trading</title>
+      <link>http://localhost:1313/tags/pairs-trading/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/pairs-trading/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quantitative Finance</title>
+      <link>http://localhost:1313/tags/quantitative-finance/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/quantitative-finance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sentiment Analysis</title>
+      <link>http://localhost:1313/tags/sentiment-analysis/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/sentiment-analysis/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Statistical Arbitrage</title>
+      <link>http://localhost:1313/tags/statistical-arbitrage/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/statistical-arbitrage/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Embeddings</title>
       <link>http://localhost:1313/tags/embeddings/</link>
@@ -20,13 +90,6 @@
       <link>http://localhost:1313/tags/information-retrieval/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
       <guid>http://localhost:1313/tags/information-retrieval/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
-      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
