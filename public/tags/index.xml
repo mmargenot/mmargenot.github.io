@@ -23,6 +23,13 @@
       <description></description>
     </item>
     <item>
+      <title>Education</title>
+      <link>http://localhost:1313/tags/education/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/education/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Ensemble Learning</title>
       <link>http://localhost:1313/tags/ensemble-learning/</link>
       <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
@@ -79,6 +86,20 @@
       <description></description>
     </item>
     <item>
+      <title>Teaching</title>
+      <link>http://localhost:1313/tags/teaching/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/teaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/tags/writing/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/writing/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Embeddings</title>
       <link>http://localhost:1313/tags/embeddings/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
@@ -97,6 +118,13 @@
       <link>http://localhost:1313/tags/remembrance-agent/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
       <guid>http://localhost:1313/tags/remembrance-agent/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Representation Learning</title>
+      <link>http://localhost:1313/tags/representation-learning/</link>
+      <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
+      <guid>http://localhost:1313/tags/representation-learning/</guid>
       <description></description>
     </item>
   </channel>

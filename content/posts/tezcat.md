@@ -3,8 +3,8 @@ date: '2025-08-10T13:54:00-04:00'
 draft: false
 title: 'tezcat - AI retrieval in Obsidian'
 math: true
-categories: ['machine learning', 'artificial intelligence', 'knowledge management', 'writing']
-tags: ['embeddings', 'machine learning', 'remembrance agent', 'information retrieval']
+categories: ['machine learning', 'artificial intelligence', 'knowledge management', 'writing', 'open source', 'tools']
+tags: ['embeddings', 'machine learning', 'remembrance agent', 'information retrieval', 'representation learning']
 ---
 
 

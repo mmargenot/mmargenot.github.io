@@ -37,6 +37,13 @@
       <description></description>
     </item>
     <item>
+      <title>Open Source</title>
+      <link>http://localhost:1313/categories/open-source/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Podcast</title>
       <link>http://localhost:1313/categories/podcast/</link>
       <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
@@ -58,6 +65,20 @@
       <description></description>
     </item>
     <item>
+      <title>Teaching</title>
+      <link>http://localhost:1313/categories/teaching/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/teaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Writing</title>
+      <link>http://localhost:1313/categories/writing/</link>
+      <pubDate>Tue, 26 Aug 2025 10:32:00 -0400</pubDate>
+      <guid>http://localhost:1313/categories/writing/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Artificial Intelligence</title>
       <link>http://localhost:1313/categories/artificial-intelligence/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
@@ -72,10 +93,10 @@
       <description></description>
     </item>
     <item>
-      <title>Writing</title>
-      <link>http://localhost:1313/categories/writing/</link>
+      <title>Tools</title>
+      <link>http://localhost:1313/categories/tools/</link>
       <pubDate>Sun, 10 Aug 2025 13:54:00 -0400</pubDate>
-      <guid>http://localhost:1313/categories/writing/</guid>
+      <guid>http://localhost:1313/categories/tools/</guid>
       <description></description>
     </item>
   </channel>
