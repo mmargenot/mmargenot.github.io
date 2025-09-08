@@ -9,6 +9,8 @@ tags: ['information retrieval', 'ontologies', 'knowledge graphs', 'occult', 'lit
 
 Foundation models have passed a tipping point and they are cropping up everywhere, in a huge variety of use cases. We can transcribe images, translate text, do object detection, and generate anything that our hearts desire. The simplest approach to solving a problem with machine learning now almost invariably begins with "send it to Claude, OpenAI, or both and see what happens" before digging into specific model implementation details. In this post, we explore using large language models (LLMs) to extract ontologies for the purpose of automatically creating knowledge graphs.
 
+# Ontologies
+
 An **ontology** is a collection of all the concepts and relationships between those concepts within a given data domain. An ontology is a blueprint, created with the intent of finding elements within the data that match that blueprint. When you know "what there is" and how those elements relate to each other, you are able to draw stronger conclusions and reason about those elements. This is the purpose of defining an ontology. We have developed a variety of specifications and implementations for building such blueprints, such as the [Web Ontology Language (OWL)](https://en.wikipedia.org/wiki/Web_Ontology_Language).
 
 A true ontology is often designed and implemented to enable reasoning, with built-in propositional logic and other strong features for bringing order to world. In our context, we are primarily concerned with the generation of a knowledge graph. We want to extract specific entities and relations from our data domain, and use that knowledge graph for various ends. `Entities` and `Relations` in an `Ontology` are a schema that we use to discover individual instances of those objects. For example, for a given ontology we might have an `Author` entity, a `Book` entity, and an `authored` `Relation`.
@@ -167,8 +169,8 @@ And, without even realizing all kinds of entities and relations, we get more str
 
 If we were to add more authors beyond the one, the complexity would increase significantly. This graphical structure can be used to improve our relationships between text in our target domain, enriching the accompanying embeddings.
 
-# Automated Ontologies
-So far, we've discussed a manually created ontology, but these become useful when a machine can construct them for you.
+# Automated Extraction
+So far, we've discussed a manually created ontology, but these become more useful when a machine can construct them for you.
 
 We've developed a wide variety of tools historically for extracting ontologies from data, but if there's one thing that large language models are good for, it's reading text. For our purposes, we'll use an LLM and structured outputs to extract our schema from a collection of works by early horror authors. If we allow the schema to follow a similar shape to the above examples and run an extraction with an LLM on:
 - The Great God Pan, by Arthur Machen
