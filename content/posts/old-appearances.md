@@ -3,8 +3,8 @@ date: '2025-08-26T10:32:00-04:00'
 draft: false
 title: 'old appearances'
 math: true
-categories: ['talk', 'machine learning', 'statistics', 'bayes', 'finance', 'datasets', 'podcast']
-tags: ['algorithmic trading', 'statistical arbitrage', 'natural language processing', 'quantitative finance', 'bayesian statistics', 'pairs trading', 'factor investing', 'ensemble learning', 'sentiment analysis', 'machine learning']
+categories: ['talk', 'machine learning', 'statistics', 'bayes', 'finance', 'datasets', 'podcast', 'writing', 'teaching', 'open source']
+tags: ['algorithmic trading', 'statistical arbitrage', 'natural language processing', 'quantitative finance', 'bayesian statistics', 'pairs trading', 'factor investing', 'ensemble learning', 'sentiment analysis', 'machine learning', 'education', 'writing', 'teaching']
 ---
 
 I have done a number of talks and appeared in a number of videos over the years. It has been some time since many of these videos and talks have been made (mostly over 5 years from this date), but there are some interesting nuggets amongst them. Most of these are on applications of machine learning in finance - you may find them interesting.
@@ -36,6 +36,15 @@ I have done a number of talks and appeared in a number of videos over the years.
 
 ## Chats with Traders
 [Chats with traders](https://chatwithtraders.com/) is a podcast that I spoke on some time ago about the challenges of using machine learning in finance. You can find a recording of that conversation [here](https://www.youtube.com/watch?v=Zj5sXWv9SDM).
+
+
+# Writing
+
+## Books
+Bit of a misnomer here, as I haven't written any books in their entirety [yet], but I did some work on ["Bayesian Methods for Hackers"](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) porting it to PyMC3, which was a substantial version change from PyMC.
+
+## Quantopian
+Much of this volume of content was produced when I worked at a startup where we did a lot of education for the community. Beyond the above live recordings, there was a very large quantity of lectures on statistics, machine learning, quantitative finance, and algorithmic trading. [This repo](https://github.com/mmargenot/research_public) contains most, if not all, of that content, with [this directory](https://github.com/mmargenot/research_public/tree/master/notebooks/lectures) in particular being the one with the lectures in it.
 
 
 # Everywhere else
