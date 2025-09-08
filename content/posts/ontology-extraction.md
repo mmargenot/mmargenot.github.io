@@ -1,6 +1,6 @@
 ---
 date: '2025-09-08T09:06:00-04:00'
-draft: true
+draft: false
 title: 'Language models and "what there is"'
 math: true
 categories: ['machine learning', 'artificial intelligence', 'knowledge graphs', 'occult', 'large language models', 'agents']
