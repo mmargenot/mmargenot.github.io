@@ -1,5 +1,5 @@
 ---
-date: '2025-09-08T09:06:00-04:00'
+date: '2025-09-09T09:06:00-04:00'
 draft: false
 title: 'Language models and "what there is"'
 math: true
@@ -7,11 +7,17 @@ categories: ['machine learning', 'artificial intelligence', 'knowledge graphs', 
 tags: ['information retrieval', 'ontologies', 'knowledge graphs', 'occult', 'literature', 'workflows', 'agents', 'data structures', 'graphs']
 ---
 
-Foundation models have passed a tipping point and they are cropping up everywhere, in a huge variety of use cases. We can transcribe images, translate text, do object detection, and generate anything that our hearts desire. The simplest approach to solving a problem with machine learning now almost invariably begins with "send it to Claude, OpenAI, or both and see what happens" before digging into specific model implementation details. In this post, we explore using large language models (LLMs) to extract ontologies for the purpose of automatically creating knowledge graphs.
+Foundation models have passed a tipping point and they are cropping up everywhere, in a huge variety of use cases. We can transcribe images, translate text, do object detection, and generate anything that our hearts desire. The simplest approach to solving a problem with machine learning now almost invariably begins with "send it to Claude, OpenAI, or both and see what happens" before digging into specific model implementation details.
+
+Many natural language processing (NLP) tasks have been "solved" with this, at least in a very first pass of the data. Do you want to extract topics from a text? Do you want to summarize it? Do you want to judge whether it's offensive or not? Send it to an LLM and log the output. Maybe later you use the output to train something specialized, but that first pass is very effective for standing up a proof of concept.
+
+This information extraction aspect is a very powerful use of LLMs. Unstructured data within text is all around us, and bringing sense to it is the subject of thousands of papers and magnitudes more research and engineering hours. Features like ["structured output"[(https://platform.openai.com/docs/guides/structured-outputs), where you can extract information in a data schema that you specify in advance, is even more powerful, providing reasonable guarantees on what you can expect from the output of an LLM rather than raw string information.
+
+Tools like this open the door for extracting detailed information from unstructured data, bringing new [human-legible] order to the field. In this post, we explore using LLMs to extract **ontologies** for the purpose of automatically creating knowledge graphs.
 
 # Ontologies
 
-An **ontology** is a collection of all the concepts and relationships between those concepts within a given data domain. An ontology is a blueprint, created with the intent of finding elements within the data that match that blueprint. When you know "what there is" and how those elements relate to each other, you are able to draw stronger conclusions and reason about those elements. This is the purpose of defining an ontology. We have developed a variety of specifications and implementations for building such blueprints, such as the [Web Ontology Language (OWL)](https://en.wikipedia.org/wiki/Web_Ontology_Language).
+An [**ontology**](https://en.wikipedia.org/wiki/Ontology_(information_science)) is a collection of all the concepts and relationships between those concepts within a given data domain. An ontology is a blueprint, created with the intent of finding elements within the data that match that blueprint. When you know "what there is" and how those elements relate to each other, you are able to draw stronger conclusions and reason about those elements. This is the purpose of defining an ontology. We have developed a variety of specifications and implementations for building such blueprints, such as the [Web Ontology Language (OWL)](https://en.wikipedia.org/wiki/Web_Ontology_Language).
 
 A true ontology is often designed and implemented to enable reasoning, with built-in propositional logic and other strong features for bringing order to world. In our context, we are primarily concerned with the generation of a knowledge graph. We want to extract specific entities and relations from our data domain, and use that knowledge graph for various ends. `Entities` and `Relations` in an `Ontology` are a schema that we use to discover individual instances of those objects. For example, for a given ontology we might have an `Author` entity, a `Book` entity, and an `authored` `Relation`.
 
@@ -681,6 +687,8 @@ I suspect that these issues could be alleviated with more in-depth prompting, as
 We can then use this ontology to find specific instances of the defined objects that appear in the text and create a knowledge graph. This knowledge graph is created using the above ontology on the same base texts.
 
 ![knowledge graph extracted from horror books](ontologies/horror_kg_instances.png)
+
+If you are curious, you can see the instances that form the basis for this knowledge graph [here](https://gist.github.com/mmargenot/e0457d8e77113d410859d30d62300c25).
 
 This visualization involves a little bit of massaging:
 - Due to the quick implementation of instance extraction (via LLM), there were a number of duplicate instances. Each chunk of text sent to the model can potentially contain overlapping information with other chunks, so some characters, locations, and so on, are repeated across different instantiations.

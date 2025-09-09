@@ -7,7 +7,7 @@ params:
   title: thinking
   description: "writing is thinking"
   keywords: [blog, statistics, ml, ai, personal]
-  author: Max
+  author: max
   DateFormat: 2006-01-02
   defaultTheme: auto
   math: true
