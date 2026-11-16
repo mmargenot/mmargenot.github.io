@@ -1,7 +1,9 @@
 ---
 date: '2026-11-03T09:00:00-05:00'
-draft: true
+draft: false
 title: 'The Public Eye release'
+categories: ['civics', 'tools', 'artificial intelligence', 'agents']
+tags: ['RAG', 'agents', 'search', 'information retrieval', 'agentic search', 'machine learning', 'large language models']
 ---
 
 Today we [finally] launched our v0 of [The Public Eye](https://the-public-eye.com), a civics tool for understanding what your representatives are doing for you.
