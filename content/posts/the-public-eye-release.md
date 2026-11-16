@@ -10,9 +10,9 @@ Today we [finally] launched our v0 of [The Public Eye](https://the-public-eye.co
 
 The Public Eye enables agentic search over the sponsorship and voting records of representatives in the United States. The bot, John Q. Public, directly cites relevant bills for your questions brings you to the key sections of those bills as you discuss the actions of the delegation or an individual representative for any state in the union. You can dig into more detail contextualized on any page, including the bills themselves.
 
-I have wanted a tool like this for a long time, as the complexity of public policy easily stretches beyond the ken of typical citizens with variegated interests and responsibilities.
-
 ![enter the johnpost](publiceye/single-q-final-2x.gif)
+
+I have wanted a tool like this for a long time, as the complexity of public policy easily stretches beyond the ken of typical citizens with variegated interests and responsibilities.
 
 [Dan](https://github.com/danthompson41/) is my chief collaborator on this, and we had a phenomenal time sprinting to release before the polls closed. We're adding more data and streamlining access to the information contained in each Congress. Please reach out to us if you have any feedback!
 
